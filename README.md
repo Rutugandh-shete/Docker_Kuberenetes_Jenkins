@@ -1,11 +1,11 @@
 # Docker Installation
-
+````
 sudo apt install docker.io
 sudo systemctl start docker # To start Docker
 sudo usermod -aG docker ubuntu # This will add ubuntu to docker group 
 newgrp docker # refresh 
 docker --version
-
+````
 # Amazon Elastic Kubernetes Service (EKS)
 
 Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane. EKS provides a scalable and secure platform for deploying, managing, and scaling containerized applications.
