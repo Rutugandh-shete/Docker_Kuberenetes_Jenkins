@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: c1
-          image: rutugandhdocker1/website
+          image: rutugandhdocker1/nginx
           ports:
           - containerPort: 80
 ~                              
