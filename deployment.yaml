@@ -20,4 +20,4 @@ spec:
           image: rutugandhdocker1/web_nginx
           ports:
           - containerPort: 80
-~                              
+                            
